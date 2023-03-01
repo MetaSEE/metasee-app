@@ -1,0 +1,9 @@
+.image-carousel{
+  object-fit: cover;
+  object-position: 0 50%;
+  height: 380px;
+}
+
+.title-carousel{
+  text-shadow: 0 0 5px #000000;
+}

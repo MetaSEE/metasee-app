@@ -1,0 +1,32 @@
+.card {
+  width: 276px !important;
+  border: none !important
+}
+
+.card-body {
+  padding: 0px !important;
+}
+
+.hashtag{
+  --bs-btn-padding-y: .25rem; --bs-btn-padding-x: .25rem; --bs-btn-font-size: .75rem;
+  color:darkgrey;
+}
+
+.card-img-top {
+  border-radius: 8px;
+}
+
+.list-group {
+  margin-top: -10px !important;
+  padding-top: -10px !important;
+}
+
+.title-vw {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.owner-vw {
+  margin: 0 !important;
+  padding: 0 !important;
+}
