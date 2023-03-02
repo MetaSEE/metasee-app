@@ -16,6 +16,7 @@ export class ThumbVirtualworldComponent implements OnInit {
     },
     thumb: '',
     hashtag: [''],
+    environment: '',
     created: ''
   }
 
