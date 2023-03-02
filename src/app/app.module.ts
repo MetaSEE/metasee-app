@@ -15,6 +15,7 @@ import { CreateVirtualworldComponent } from './components/virtualworlds/create-v
 import { ThumbEnvironmentComponent } from './components/virtualworlds/create-virtualworld/thumb-environment/thumb-environment.component';
 import { LoginComponent } from './components/login/login.component';
 import { SearchVirtualworldComponent } from './components/virtualworlds/search-virtualworld/search-virtualworld.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { SearchVirtualworldComponent } from './components/virtualworlds/search-v
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

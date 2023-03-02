@@ -1,3 +1,4 @@
+import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  url: String = "";
+
+  constructor(
+    private location: Location
+  ) { }
 
   ngOnInit(): void {
+    this.url = this.location.path();
+    console.log('url' , this.url);
   }
 
 }

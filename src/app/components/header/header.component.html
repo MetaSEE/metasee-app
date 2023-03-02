@@ -4,8 +4,13 @@
   <app-mainmenu></app-mainmenu>
   <!-- Navbar End -->
 
-  <!-- Carousel -->
-  <app-carousel></app-carousel>
-  <!-- Carousel End -->
+  <div *ngIf="url=='/home' || url=='/' || url=='', then carousel"></div>
+
 </header>
 <!-- Header End -->
+
+<!-- Carousel -->
+<ng-template #carousel>
+  <app-carousel></app-carousel>
+</ng-template>
+<!-- Carousel End -->
