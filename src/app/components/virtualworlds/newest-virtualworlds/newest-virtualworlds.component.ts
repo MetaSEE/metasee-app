@@ -1,3 +1,5 @@
+import { VirtualworldsService } from './../virtualworlds.service';
+import { VirtualWorld } from './../virtualworld';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewestVirtualworldsComponent implements OnInit {
 
-  constructor() { }
+  virtualworlds: VirtualWorld[] = [];
+
+  constructor(
+    private service: VirtualworldsService
+  ) { }
 
   ngOnInit(): void {
+    this.service.show().subscribe((virtualworlds)=>{
+      this.virtualworlds = virtualworlds;
+    })
   }
 
 }

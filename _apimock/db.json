@@ -2,32 +2,57 @@
   "virtualworlds": [
     {
       "id": 1,
-      "name": "Virtual One",
-      "owner": "Arantes",
+      "name": "Virtual World One",
+      "owner": {
+        "name": "Arantes",
+        "picture": "https://loremflickr.com/40/40"
+      },
+      "thumb": "https://loremflickr.com/300/180",
+      "hashtag": [ "uml", "oo", "classdiagram" ],
       "created": "2023-03-01"
     },
     {
       "id": 2,
-      "name": "Virtual Two",
-      "owner": "Fernandes",
+      "name": "Virtual World Two",
+      "owner": {
+        "name": "Fernandes",
+        "picture": "https://loremflickr.com/40/40"
+      },
+      "thumb": "https://loremflickr.com/300/180",
+      "hashtag": [ "uml", "oo", "classdiagram" ],
       "created": "2023-03-01"
     },
     {
       "id": 3,
-      "name": "Virtual Three",
-      "owner": "Arantes",
+      "name": "Virtual World Three",
+      "owner": {
+        "name": "Arantes",
+        "picture": "https://loremflickr.com/40/40"
+      },
+      "thumb": "https://loremflickr.com/300/180",
+      "hashtag": [ "uml", "oo", "classdiagram" ],
       "created": "2023-03-01"
     },
     {
       "id": 4,
-      "name": "Virtual Four",
-      "owner": "Fernandes",
+      "name": "Virtual World Four",
+      "owner": {
+        "name": "Fernandes",
+        "picture": "https://loremflickr.com/40/40"
+      },
+      "thumb": "https://loremflickr.com/300/180",
+      "hashtag": [ "uml", "oo", "classdiagram" ],
       "created": "2023-03-01"
     },
     {
       "id": 5,
-      "name": "Virtual Five",
-      "owner": "Arantes",
+      "name": "Virtual World Five",
+      "owner": {
+        "name": "Arantes",
+        "picture": "https://loremflickr.com/40/40"
+      },
+      "thumb": "https://loremflickr.com/300/180",
+      "hashtag": [ "uml", "oo", "classdiagram" ],
       "created": "2023-03-01"
     }
   ]

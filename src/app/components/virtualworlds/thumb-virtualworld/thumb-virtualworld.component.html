@@ -1,16 +1,14 @@
-<a href=""><img src="https://loremflickr.com/300/180" class="card-img-top" alt="..."></a>
+<a href=""><img src="{{ virtualworld.thumb }}" class="card-img-top" alt="..."></a>
 <div class="card-body mt-2">
   <div class="row align-items-start">
     <div class="col-2">
-      <img class="rounded-circle" alt="avatar1" src="https://loremflickr.com/40/40" />
+      <img class="rounded-circle" alt="avatar1" src="{{ virtualworld.owner.picture }}" />
     </div>
     <div class="col-10">
-      <h5 class="card-title"><a href="" class="nav-link">The Virtual World One</a></h5>
-      <p class="card-text"><a href="" class="nav-link">Fulano de Tal</a></p>
+      <h5 class="card-title"><a href="" class="nav-link">{{ virtualworld.name }}</a></h5>
+      <p class="card-text"><a href="" class="nav-link">{{ virtualworld.owner.name }}</a></p>
       <ul class="list-group list-group-horizontal">
-        <li class="hashtag btn btn-light">#uml</li>
-        <li class="hashtag btn btn-light">#oo</li>
-        <li class="hashtag btn btn-light">#classdiagram</li>
+        <li class="hashtag btn btn-light" *ngFor="let hashtag of virtualworld.hashtag">#{{ hashtag }}</li>
       </ul>
     </div>
   </div>

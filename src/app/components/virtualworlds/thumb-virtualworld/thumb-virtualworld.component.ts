@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-thumb-virtualworld',
@@ -6,6 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./thumb-virtualworld.component.css']
 })
 export class ThumbVirtualworldComponent implements OnInit {
+
+  @Input() virtualworld = {
+    id: 0,
+    name: '',
+    owner: {
+      name: '',
+      picture: ''
+    },
+    thumb: '',
+    hashtag: [''],
+    created: ''
+  }
 
   constructor() { }
 
