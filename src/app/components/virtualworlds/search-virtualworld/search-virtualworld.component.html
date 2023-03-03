@@ -14,14 +14,7 @@
 
       <!-- Search -->
       <section class="row justify-content-center">
-        <app-thumb-virtualworld class="card p-0 m-4 col-12 col-md-4"></app-thumb-virtualworld>
-        <app-thumb-virtualworld class="card p-0 m-4 col-12 col-md-4"></app-thumb-virtualworld>
-        <app-thumb-virtualworld class="card p-0 m-4 col-12 col-md-4"></app-thumb-virtualworld>
-        <app-thumb-virtualworld class="card p-0 m-4 col-12 col-md-4"></app-thumb-virtualworld>
-        <app-thumb-virtualworld class="card p-0 m-4 col-12 col-md-4"></app-thumb-virtualworld>
-        <app-thumb-virtualworld class="card p-0 m-4 col-12 col-md-4"></app-thumb-virtualworld>
-        <app-thumb-virtualworld class="card p-0 m-4 col-12 col-md-4"></app-thumb-virtualworld>
-        <app-thumb-virtualworld class="card p-0 m-4 col-12 col-md-4"></app-thumb-virtualworld>
+        <app-thumb-virtualworld class="card p-0 m-4 col-12 col-md-4" *ngFor="let vw of virtualworlds" [virtualworld]="vw"></app-thumb-virtualworld>
       </section>
       <!-- Search End-->
   </section>

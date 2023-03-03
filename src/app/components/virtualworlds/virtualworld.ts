@@ -1,5 +1,5 @@
 export interface VirtualWorld {
-  id: number,
+  _id: number,
   name: string,
   owner: {
     name: string,

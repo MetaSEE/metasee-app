@@ -1,7 +1,7 @@
 {
   "virtualworlds": [
     {
-      "id": 1,
+      "_id": 1,
       "name": "Virtual World One",
       "owner": {
         "name": "Arantes",
@@ -10,10 +10,16 @@
       "thumb": "https://loremflickr.com/300/180",
       "hashtag": [ "uml", "oo", "classdiagram" ],
       "environment": "contact",
+      "assets": [
+        {"umlclasses":1},
+        {"umlclasses":2},
+        {"umlclasses":3},
+        {"umlclasses":4}
+      ],
       "created": "2023-03-01"
     },
     {
-      "id": 2,
+      "_id": 2,
       "name": "Virtual World Two",
       "owner": {
         "name": "Fernandes",
@@ -25,7 +31,7 @@
       "created": "2023-03-01"
     },
     {
-      "id": 3,
+      "_id": 3,
       "name": "Virtual World Three",
       "owner": {
         "name": "Arantes",
@@ -37,7 +43,7 @@
       "created": "2023-03-01"
     },
     {
-      "id": 4,
+      "_id": 4,
       "name": "Virtual World Four",
       "owner": {
         "name": "Fernandes",
@@ -49,7 +55,7 @@
       "created": "2023-03-01"
     },
     {
-      "id": 5,
+      "_id": 5,
       "name": "Virtual World Five",
       "owner": {
         "name": "Arantes",
@@ -59,6 +65,45 @@
       "hashtag": [ "uml", "oo", "classdiagram" ],
       "environment": "osiris",
       "created": "2023-03-01"
+    }
+  ],
+
+  "umlclasses": [
+    {
+      "_id": 1,
+      "classname": "Manager",
+      "owner": 1,
+      "position": {"x":0,"y":1,"z":2},
+      "rotation": {"x":0,"y":0,"z":0},
+      "scale": {"x":1,"y":1,"z":1},
+      "color": "blue"
+    },
+    {
+      "_id": 2,
+      "classname": "Client",
+      "owner": 1,
+      "position": {"x":1,"y":1.5,"z":0},
+      "rotation": {"x":0,"y":0,"z":0},
+      "scale": {"x":1,"y":1,"z":1},
+      "color": "brown"
+    },
+    {
+      "_id": 3,
+      "classname": "User",
+      "owner": 1,
+      "position": {"x":-1,"y":1,"z":-2},
+      "rotation": {"x":0,"y":0,"z":0},
+      "scale": {"x":1,"y":1,"z":1},
+      "color": "yellow"
+    },
+    {
+      "_id": 4,
+      "classname": "Person",
+      "owner": 1,
+      "position": {"x":-1.5,"y":2.5,"z":-2},
+      "rotation": {"x":0,"y":0,"z":0},
+      "scale": {"x":1,"y":1,"z":1},
+      "color": "pink"
     }
   ]
 }

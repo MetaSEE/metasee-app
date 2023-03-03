@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ThumbVirtualworldComponent implements OnInit {
 
   @Input() virtualworld = {
-    id: 0,
+    _id: 0,
     name: '',
     owner: {
       name: '',

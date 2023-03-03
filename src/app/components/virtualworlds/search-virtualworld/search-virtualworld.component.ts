@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { VirtualworldsService } from './../virtualworlds.service';
+import { VirtualWorld } from './../virtualworld';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-search-virtualworld',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchVirtualworldComponent implements OnInit {
 
-  constructor() { }
+  virtualworlds: VirtualWorld[] = []
+
+  constructor(
+    private service: VirtualworldsService
+  ) { }
 
   ngOnInit(): void {
+    this.service.show().subscribe((virtualworlds)=>{
+      this.virtualworlds = virtualworlds;
+    });
   }
 
 }
