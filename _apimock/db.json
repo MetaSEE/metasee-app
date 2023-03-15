@@ -1,7 +1,7 @@
 {
   "virtualworlds": [
     {
-      "_id": 1,
+      "id": 1,
       "name": "Virtual World One",
       "owner": {
         "name": "Arantes",
@@ -11,15 +11,41 @@
       "hashtag": [ "uml", "oo", "classdiagram" ],
       "environment": "contact",
       "assets": [
-        {"umlclasses":1},
-        {"umlclasses":2},
-        {"umlclasses":3},
-        {"umlclasses":4}
+        {"umlclass": {
+            "id": 1,
+            "classname": "Manager",
+            "owner": 1,
+            "position": {"x":0.5,"y":1,"z":2},
+            "rotation": {"x":0,"y":0,"z":0},
+            "scale": {"x":1,"y":1,"z":1},
+            "color": "gray"
+          }
+        },
+        {"umlclass": {
+            "id": 2,
+            "classname": "Client",
+            "owner": 1,
+            "position": {"x":1,"y":1.5,"z":0},
+            "rotation": {"x":0,"y":0,"z":0},
+            "scale": {"x":1,"y":1,"z":1},
+            "color": "white"
+          }
+        },
+        {"umlclass": {
+            "id": 3,
+            "classname": "User",
+            "owner": 1,
+            "position": {"x":-1,"y":1,"z":-2},
+            "rotation": {"x":0,"y":0,"z":0},
+            "scale": {"x":1,"y":1,"z":1},
+            "color": "orange"
+          }
+        }
       ],
       "created": "2023-03-01"
     },
     {
-      "_id": 2,
+      "id": 2,
       "name": "Virtual World Two",
       "owner": {
         "name": "Fernandes",
@@ -31,7 +57,7 @@
       "created": "2023-03-01"
     },
     {
-      "_id": 3,
+      "id": 3,
       "name": "Virtual World Three",
       "owner": {
         "name": "Arantes",
@@ -43,7 +69,7 @@
       "created": "2023-03-01"
     },
     {
-      "_id": 4,
+      "id": 4,
       "name": "Virtual World Four",
       "owner": {
         "name": "Fernandes",
@@ -55,7 +81,7 @@
       "created": "2023-03-01"
     },
     {
-      "_id": 5,
+      "id": 5,
       "name": "Virtual World Five",
       "owner": {
         "name": "Arantes",
@@ -70,34 +96,34 @@
 
   "umlclasses": [
     {
-      "_id": 1,
+      "id": 1,
       "classname": "Manager",
       "owner": 1,
       "position": {"x":0,"y":1,"z":2},
       "rotation": {"x":0,"y":0,"z":0},
       "scale": {"x":1,"y":1,"z":1},
-      "color": "blue"
+      "color": "gray"
     },
     {
-      "_id": 2,
+      "id": 2,
       "classname": "Client",
       "owner": 1,
       "position": {"x":1,"y":1.5,"z":0},
       "rotation": {"x":0,"y":0,"z":0},
       "scale": {"x":1,"y":1,"z":1},
-      "color": "brown"
+      "color": "white"
     },
     {
-      "_id": 3,
+      "id": 3,
       "classname": "User",
       "owner": 1,
       "position": {"x":-1,"y":1,"z":-2},
       "rotation": {"x":0,"y":0,"z":0},
       "scale": {"x":1,"y":1,"z":1},
-      "color": "yellow"
+      "color": "orange"
     },
     {
-      "_id": 4,
+      "id": 4,
       "classname": "Person",
       "owner": 1,
       "position": {"x":-1.5,"y":2.5,"z":-2},
