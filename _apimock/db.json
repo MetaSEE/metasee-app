@@ -5,9 +5,9 @@
       "name": "Virtual World One",
       "owner": {
         "name": "Arantes",
-        "picture": "https://loremflickr.com/40/40"
+        "picture": "https://doodleipsum.com/40x40/avatar-3?i=078a7bb71c6b695082b67df85ff22138"
       },
-      "thumb": "https://loremflickr.com/300/180",
+      "thumb": "http://via.placeholder.com/300x180",
       "hashtag": [ "uml", "oo", "classdiagram" ],
       "environment": "contact",
       "assets": [
@@ -49,9 +49,9 @@
       "name": "Virtual World Two",
       "owner": {
         "name": "Fernandes",
-        "picture": "https://loremflickr.com/40/40"
+        "picture": "https://doodleipsum.com/40x40/avatar-3?i=5ff278e220eacb10b8e37efefef406a6"
       },
-      "thumb": "https://loremflickr.com/300/180",
+      "thumb": "http://via.placeholder.com/300x180",
       "hashtag": [ "uml", "oo", "classdiagram" ],
       "environment": "default",
       "created": "2023-03-01"
@@ -61,9 +61,9 @@
       "name": "Virtual World Three",
       "owner": {
         "name": "Arantes",
-        "picture": "https://loremflickr.com/40/40"
+        "picture": "https://doodleipsum.com/40x40/avatar-3?i=078a7bb71c6b695082b67df85ff22138"
       },
-      "thumb": "https://loremflickr.com/300/180",
+      "thumb": "http://via.placeholder.com/300x180",
       "hashtag": [ "uml", "oo", "classdiagram" ],
       "environment": "egypt",
       "created": "2023-03-01"
@@ -73,9 +73,9 @@
       "name": "Virtual World Four",
       "owner": {
         "name": "Fernandes",
-        "picture": "https://loremflickr.com/40/40"
+        "picture": "https://doodleipsum.com/40x40/avatar-3?i=5ff278e220eacb10b8e37efefef406a6"
       },
-      "thumb": "https://loremflickr.com/300/180",
+      "thumb": "http://via.placeholder.com/300x180",
       "hashtag": [ "uml", "oo", "classdiagram" ],
       "environment": "poison",
       "created": "2023-03-01"
@@ -85,9 +85,9 @@
       "name": "Virtual World Five",
       "owner": {
         "name": "Arantes",
-        "picture": "https://loremflickr.com/40/40"
+        "picture": "https://doodleipsum.com/40x40/avatar-3?i=078a7bb71c6b695082b67df85ff22138"
       },
-      "thumb": "https://loremflickr.com/300/180",
+      "thumb": "http://via.placeholder.com/300x180",
       "hashtag": [ "uml", "oo", "classdiagram" ],
       "environment": "osiris",
       "created": "2023-03-01"
