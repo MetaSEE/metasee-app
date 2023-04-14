@@ -1,8 +1,8 @@
-<a href="http://localhost:3030/{{ virtualworld._id }}"><img src="{{ virtualworld.thumb }}" class="card-img-top" alt="{{ virtualworld.name }}"></a>
+<a href="http://localhost:3030/{{ virtualworld._id }}"><img src="{{ url_thumbs_vw }}{{ virtualworld.environment }}.png" class="card-img-top" alt="{{ virtualworld.name }}"></a>
 <div class="card-body mt-2">
   <div class="row align-items-start">
     <div class="col-2">
-      <img class="rounded-circle" alt="avatar1" src="{{ virtualworld.owner.picture }}" />
+      <img class="rounded-circle" alt="avatar1" src="{{ url_thumbs_avatar }}avatar-{{ virtualworld.owner.picture }}.png" />
     </div>
     <div class="col-10">
       <h5 class="card-title"><a href="" class="nav-link">{{ virtualworld.name }}</a></h5>

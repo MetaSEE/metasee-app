@@ -11,7 +11,7 @@
       "hashtag": [ "uml", "oo", "classdiagram" ],
       "environment": "contact",
       "assets": [
-        {"umlclass": {
+        {"umlclasses": {
             "id": 1,
             "classname": "Manager",
             "owner": 1,
@@ -21,7 +21,7 @@
             "color": "gray"
           }
         },
-        {"umlclass": {
+        {"umlclasses": {
             "id": 2,
             "classname": "Client",
             "owner": 1,
@@ -31,7 +31,7 @@
             "color": "white"
           }
         },
-        {"umlclass": {
+        {"umlclasses": {
             "id": 3,
             "classname": "User",
             "owner": 1,
@@ -94,7 +94,7 @@
     }
   ],
 
-  "umlclasses": [
+  "umlclasseses": [
     {
       "id": 1,
       "classname": "Manager",

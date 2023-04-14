@@ -2,13 +2,16 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { VirtualWorld } from './virtualworld';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class VirtualworldsService {
 
-  private readonly API = 'http://localhost:3030/virtualworlds';
+  private readonly API = environment.URL_API + "virtualworlds";
+
+  // 'http://localhost:3030/virtualworlds';
 
   constructor(
     private http: HttpClient
