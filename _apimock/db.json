@@ -1,7 +1,7 @@
 {
   "virtualworlds": [
     {
-      "id": 1,
+      "id": "6400d4c9ea11056ca95d59a5",
       "name": "Virtual World One",
       "owner": {
         "name": "Arantes",
@@ -11,7 +11,7 @@
       "hashtag": [ "uml", "oo", "classdiagram" ],
       "environment": "contact",
       "assets": [
-        {"umlclasses": {
+        {"umlclass": {
             "id": 1,
             "classname": "Manager",
             "owner": 1,
@@ -21,7 +21,7 @@
             "color": "gray"
           }
         },
-        {"umlclasses": {
+        {"umlclass": {
             "id": 2,
             "classname": "Client",
             "owner": 1,
@@ -31,7 +31,7 @@
             "color": "white"
           }
         },
-        {"umlclasses": {
+        {"umlclass": {
             "id": 3,
             "classname": "User",
             "owner": 1,
@@ -94,7 +94,7 @@
     }
   ],
 
-  "umlclasseses": [
+  "umlclasses": [
     {
       "id": 1,
       "classname": "Manager",

@@ -21,6 +21,7 @@ export class ThumbVirtualworldComponent implements OnInit {
     created: ''
   }
 
+  url_vw = environment.URL_VIRTUALWORLD;
   url_thumbs_vw = environment.URL_VIRTUALWORLD + environment.DIR_VW_THUMBS;
   url_thumbs_avatar = environment.DIR_APP_THUMBS_AVATAR;
 
