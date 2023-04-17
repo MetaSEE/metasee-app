@@ -9,16 +9,16 @@ import { environment } from 'src/environments/environment';
 export class ThumbVirtualworldComponent implements OnInit {
 
   @Input() virtualworld = {
-    _id: 0,
+    _id: '',
     name: '',
     owner: {
       name: '',
-      picture: ''
+      picture: '',
     },
     thumb: '',
     hashtag: [''],
     environment: '',
-    created: ''
+    createdAt: ''
   }
 
   url_vw = environment.URL_VIRTUALWORLD;

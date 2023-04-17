@@ -1,5 +1,5 @@
 export interface VirtualWorld {
-  _id: number,
+  _id: string,
   name: string,
   owner: {
     name: string,
@@ -8,5 +8,5 @@ export interface VirtualWorld {
   thumb: string,
   hashtag: Array<string>,
   environment: string,
-  createdAt: Date
+  createdAt: string
 }
