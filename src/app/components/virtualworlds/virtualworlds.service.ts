@@ -9,7 +9,7 @@ import { environment } from 'src/environments/environment';
 })
 export class VirtualworldsService {
 
-  private readonly API = environment.URL_API + "virtualworlds";
+  private readonly API = environment.URL_API + "virtualworlds/desc";
 
   // 'http://localhost:3030/virtualworlds';
 
