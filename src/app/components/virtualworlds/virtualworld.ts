@@ -8,5 +8,5 @@ export interface VirtualWorld {
   thumb: string,
   hashtag: Array<string>,
   environment: string,
-  created: string
+  createdAt: Date
 }
