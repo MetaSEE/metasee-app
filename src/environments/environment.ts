@@ -2,12 +2,19 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+// export const environment = {
+//   production: false,
+//   DIR_APP_THUMBS_AVATAR: "assets/images/thumbs_avatar/",
+//   // URL_API: "http://localhost:3333/",
+//   URL_VIRTUALWORLD: "http://localhost:3321/",
+//   DIR_VW_THUMBS: "images/thumbs/"
+// };
+
 export const environment = {
   production: false,
   DIR_APP_THUMBS_AVATAR: "assets/images/thumbs_avatar/",
-  // URL_API: "http://localhost:3333/",
   URL_API: "https://bcfh5v7dz4.execute-api.sa-east-1.amazonaws.com/master/",
-  URL_VIRTUALWORLD: "http://localhost:3321/",
+  URL_VIRTUALWORLD: "https://metasee-virtualworld.herokuapp.com/",
   DIR_VW_THUMBS: "images/thumbs/"
 };
 
