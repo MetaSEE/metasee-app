@@ -11,6 +11,6 @@ export const environment = {
   production: true,
   DIR_APP_THUMBS_AVATAR: "assets/images/thumbs_avatar/",
   URL_API: "https://bcfh5v7dz4.execute-api.sa-east-1.amazonaws.com/master/",
-  URL_VIRTUALWORLD: "https://metasee-virtualworld.herokuapp.com/",
+  URL_VIRTUALWORLD: "http://metasee-virtualworld.herokuapp.com/",
   DIR_VW_THUMBS: "images/thumbs/"
 };
