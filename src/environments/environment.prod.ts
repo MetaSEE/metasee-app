@@ -10,7 +10,7 @@
 export const environment = {
   production: true,
   DIR_APP_THUMBS_AVATAR: "assets/images/thumbs_avatar/",
-  URL_API: "http://metasee-api.herokuapp.com/",
+  URL_API: "https://metasee-api.herokuapp.com/",
   URL_VIRTUALWORLD:"http://metasee-virtualworld.herokuapp.com/",
   DIR_VW_THUMBS: "images/thumbs/"
 };
